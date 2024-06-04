@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: 0;
+  color: white;
+  transition: all .1s linear;
+}
+
+ul {
+  display: flex;
+  padding: 10px 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  font-size: 36px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+a:hover {
+  font-size: 36px;
+  color: rgb(201, 201, 201);
+}
+
+.head {
+  background-color: rgb(188, 116, 255);
+}
+
+.foot {
+  text-align: center;
+  background-color: rgb(188, 116, 255);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.foot p {
+  color: white;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.main {
+  margin-top: 50px;
+  margin-bottom: 65px;
+  font-size: 24px;
+}
+
+.trailer {
+  float: right;
+  margin: 0 0 15px 15px;
+}
